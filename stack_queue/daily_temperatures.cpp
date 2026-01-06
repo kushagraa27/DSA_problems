@@ -24,7 +24,7 @@ public:
                 st.pop();
                 ans[prev] = i-prev;
             }
-            st.push(i);
+            st.push(i); // pushing to stack if its greater
         }
         return ans;
     }
